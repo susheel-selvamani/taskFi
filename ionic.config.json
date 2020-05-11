@@ -1,0 +1,7 @@
+{
+  "name": "bestPrac",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

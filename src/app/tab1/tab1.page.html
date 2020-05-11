@@ -1,0 +1,164 @@
+<ion-content [fullscreen]="true">
+
+  <ion-toolbar style="padding-top: 10px;">
+
+    <ion-title size="small">
+      COMMUNITY
+    </ion-title>
+    <ion-button fill="clear" size="small" style="text-transform: none;">
+      All Communities
+      <ion-icon slot="end" name="chevron-down-outline"></ion-icon>
+    </ion-button>
+
+    <ion-item slot="end" lines="none">
+      <ion-avatar>
+        <img src="assets/avatar.svg">
+      </ion-avatar>
+    </ion-item>
+
+  </ion-toolbar>
+
+  <ion-toolbar style="padding-top: 10px;">
+
+    <ion-item lines="none">
+      <ion-searchbar placeholder="Search posts and numbers"></ion-searchbar>
+      <ion-icon name="notifications-outline"></ion-icon>
+    </ion-item>
+
+    <ion-segment scrollable>
+      <ion-segment-button>
+        <ion-label style="text-transform: none;">All Posts</ion-label>
+      </ion-segment-button>
+      <ion-segment-button checked>
+        <ion-label style="text-transform: none;">News</ion-label>
+      </ion-segment-button>
+      <ion-segment-button>
+        <ion-label style="text-transform: none;">Diet</ion-label>
+      </ion-segment-button>
+      <ion-segment-button>
+        <ion-label style="text-transform: none;">Lifestyle</ion-label>
+      </ion-segment-button>
+      <ion-segment-button>
+        <ion-label style="text-transform: none;">Symptoms</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+
+  <ion-card>
+    <ion-row>
+      <ion-col size="4">
+        <p style="font-size: small; font-weight: lighter; padding-left: 10px; text-align:left;">News</p>
+      </ion-col>
+      <ion-col size="4"></ion-col>
+      <ion-col size="4">
+        <p style="font-size: small; font-weight: lighter; padding-right: 10px; text-align: right;">13 hours ago</p>
+      </ion-col>
+    </ion-row>
+
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <img src="assets/avatar.svg">
+      </ion-avatar>
+      <ion-label slot="start">Member</ion-label>
+      <p slot="start" style="font-weight: lighter; font-size: small;">anonymous</p>
+      <ion-icon name="ellipsis-vertical" slot="end"></ion-icon>
+    </ion-item>
+
+    <ion-item lines="none">
+      some text here
+    </ion-item>
+
+    <ion-item>
+      <ion-button fill="clear" size="small" style="text-transform: none;">
+        <ion-icon slot="start" name="location-outline"></ion-icon>
+        Button text
+      </ion-button>
+    </ion-item>
+
+    <ion-row>
+      <ion-col size="3">
+        <ion-button fill="clear">
+          <ion-icon name="thumbs-up-outline" slot="start"></ion-icon> 0
+        </ion-button>
+      </ion-col>
+      <ion-col size="3">
+        <ion-button fill="clear">
+          <ion-icon name="chatbubble-ellipses-outline" slot="start"></ion-icon> 0
+        </ion-button>
+      </ion-col>
+      <ion-col size="3">
+        <ion-button fill="clear">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col size="3">
+        <ion-button fill="clear">
+          <ion-icon name="share-social-outline"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+  <ion-card>
+    <ion-row>
+      <ion-col size="4">
+        <p style="font-size: small; font-weight: lighter; padding-left: 10px; text-align:left;">News</p>
+      </ion-col>
+      <ion-col size="4"></ion-col>
+      <ion-col size="4">
+        <p style="font-size: small; font-weight: lighter; padding-right: 10px; text-align: right;">13 hours ago</p>
+      </ion-col>
+    </ion-row>
+
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <img src="assets/avatar.svg">
+      </ion-avatar>
+      <ion-label slot="start">Member</ion-label>
+      <p slot="start" style="font-weight: lighter; font-size: small;">anonymous</p>
+      <ion-icon name="ellipsis-vertical" slot="end"></ion-icon>
+    </ion-item>
+
+    <ion-item lines="none">
+      some text here
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-button fill="clear" size="small" style="text-transform: none;">
+        <ion-icon slot="start" name="location-outline"></ion-icon>
+        Button text
+      </ion-button>
+    </ion-item>
+    
+    <ion-item>
+      <ion-button fill="clear" color="dark" style="text-transform: none;">
+        <ion-icon name="ellipse" slot="start"></ion-icon>
+        1 member reacted to this post
+      </ion-button>     
+    </ion-item>
+
+    <ion-row>
+      <ion-col size="3">
+        <ion-button fill="clear">
+          <ion-icon name="thumbs-up-outline" slot="start"></ion-icon> 0
+        </ion-button>
+      </ion-col>
+      <ion-col size="3">
+        <ion-button fill="clear">
+          <ion-icon name="chatbubble-ellipses-outline" slot="start"></ion-icon> 0
+        </ion-button>
+      </ion-col>
+      <ion-col size="3">
+        <ion-button fill="clear">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col size="3">
+        <ion-button fill="clear">
+          <ion-icon name="share-social-outline"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+</ion-content>
